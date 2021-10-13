@@ -1,0 +1,5 @@
+com\pages\Homepage.class
+com\pages\Discount.class
+com\pages\Profile.class
+com\pages\Sports.class
+com\base\Base.class

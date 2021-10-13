@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 113.864 s <<< FAILURE! - in TestSuite
+MyRunner.MyRunner.runScenario["Validating discount coupon", "Optional[Applying Coupon Activity]"](1)  Time elapsed: 24.58 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='style_FlexBox-sc-1kcq93d-0 styleHorizontalFlexBox-sc-1kcq93d-1 style_SmileyWrapper-sc-1kcq93d-3 bjUOHW']"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-GDDNM37T', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\Kasyap\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a232509b38c50701d3508cbf313c6d55
+*** Element info: {Using=xpath, value=//div[@class='style_FlexBox-sc-1kcq93d-0 styleHorizontalFlexBox-sc-1kcq93d-1 style_SmileyWrapper-sc-1kcq93d-3 bjUOHW']}
+
